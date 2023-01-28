@@ -2,6 +2,14 @@
 
 A fun and interactive hangman game built with React, Vite.js, TypeScript, and Styled Components.
 
+## Features
+- The game displays hangman word with underscores as placeholders
+- The game allows you to enter a letter
+- The game displays the correct and wrong letters
+- The game displays the remaining number of guesses
+- The game displays a message when you win or lose
+- The game allows you to play again
+
 ## Getting Started
 
 1. Clone the repository: `git clone https://github.com/luizgolima/react-hangman-game.git`
