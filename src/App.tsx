@@ -74,7 +74,14 @@ function App() {
         guessedLetters={guessedLetters}
         wordToGuess={wordToGuess}
       />
-      <Keyboard />
+      <Keyboard
+        disabled={isWinner || isLoser}
+        activeLetters={guessedLetters.filter((letter) =>
+          wordToGuess.includes(letter)
+        )}
+        inactiveLetters={incorrectLetters}
+        addGuessedLetter={addGuessedLetter}
+      />
     </AppContainer>
   );
 }
