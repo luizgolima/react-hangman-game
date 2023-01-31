@@ -1,6 +1,8 @@
 # React Hangman Game
 
-A fun and interactive hangman game built with React, Vite.js, TypeScript, and Styled Components.
+A fun and interactive hangman game built with React, TS, and Styled Components.
+
+<img width="558" alt="hangman" src="https://user-images.githubusercontent.com/110183537/215799692-1ecafa3e-34bc-4b83-9ed2-a23d094f9884.png">
 
 ## Features
 - The game displays hangman word with underscores as placeholders
@@ -27,10 +29,10 @@ This project is open to contributions. If you would like to contribute, please f
 
 ## Built With
 
-- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
-- [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript that compiles to plain JavaScript
 - [Vite.js](https://github.com/vitejs/vite) - A build tool and development server
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
 - [Styled Components](https://styled-components.com/) - A library for styling components in React
+- [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript that compiles to plain JavaScript
 
 ## Author
 
